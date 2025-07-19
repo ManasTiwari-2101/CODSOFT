@@ -138,11 +138,12 @@ Depositing money
 Withdrawing money
 
 Exiting the system
+
 --------------------------------------------------
 # How it works :
 The program is composed of three main classes:
 
-1: Account Class
+# 1: Account Class
 
 Stores and manages the bank balance.
 
@@ -154,7 +155,7 @@ withdraw(double amount)
 
 getBalance()
 
-2: ATMSystem Class
+# 2: ATMSystem Class
 
 Handles user interactions.
 
@@ -164,13 +165,14 @@ Calls appropriate methods in the Account class based on the user input.
 
 Validates user input and provides helpful messages.
 
-3: Task3 Class
+# 3: Task3 Class
 
 The main class with the main method.
 
 Creates an Account object with an initial balance of ₹0.
 
 Starts the ATM session using the ATMSystem.
+
 --------------------------------------------------------------------------------
 # Features:
 🌟 Initial balance is set to ₹0
