@@ -68,4 +68,63 @@ Enter a number between 1 to 100
 
 Bravo! you guessed correctly
 
+------------------------------------------------------------------------------------------------------------------------------
+
+# TASK 2 : Student Grade Calculator 
+
+# Introduction :
+This Student Grade Calculator is a simple Java console application designed to calculate the total marks, average percentage, and grade of a student based on marks entered for multiple subjects. It demonstrates the use of loops, arrays, user input handling, and conditional logic in Java.
+
+# 🧮 What It Does :
+
+Prompts the user to enter the number of subjects.
+
+Accepts the marks for each subject.
+
+Calculates:
+
+Total Marks
+
+Average Percentage
+
+Grade (based on average)
+
+Displays the results in a clean format.
+
+# Grading Scale :
+| Average Percentage | Grade |
+| ------------------ | ----- |
+| 90 - 100           | A     |
+| 80 - 89            | B     |
+| 70 - 79            | C     |
+| 60 - 69            | D     |
+| Below 60           | F     |
+
+# Example :
+Enter number of subjects
+
+3
+
+Enter marks of subject
+
+85
+
+Enter marks of subject
+
+90
+
+Enter marks of subject
+
+80
+
+Total marks:255
+
+Average percentage:85.0
+
+Grade:B
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
