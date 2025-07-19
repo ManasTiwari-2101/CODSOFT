@@ -45,16 +45,27 @@ Keep guessing until you correctly guess the number.
 Once guessed correctly, the game will display a congratulatory message.
 # Example :
 Enter a number between 1 to 100
+
 50
+
 Too low
+
 Enter a number between 1 to 100
+
 75
+
 Too high 
+
 Enter a number between 1 to 100
+
 63
+
 Too low
+
 Enter a number between 1 to 100
+
 68
+
 Bravo! you guessed correctly
 
 
