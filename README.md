@@ -125,6 +125,126 @@ Grade:B
 
 ------------------------------------------------------------------------------------------------------------------------------
 
+# TASK 3 : ATM INTERFACE
+
+# Introduction:
+
+This task is a simple ATM Machine Simulation built using Java. It runs in the console and allows a user to interact with a bank account by performing basic operations such as:
+
+Checking balance
+
+Depositing money
+
+Withdrawing money
+
+Exiting the system
+--------------------------------------------------
+# How it works :
+The program is composed of three main classes:
+
+1: Account Class
+
+Stores and manages the bank balance.
+
+Contains methods for:
+
+deposit(double amount)
+
+withdraw(double amount)
+
+getBalance()
+
+2: ATMSystem Class
+
+Handles user interactions.
+
+Displays a menu and reads the user’s choices.
+
+Calls appropriate methods in the Account class based on the user input.
+
+Validates user input and provides helpful messages.
+
+3: Task3 Class
+
+The main class with the main method.
+
+Creates an Account object with an initial balance of ₹0.
+
+Starts the ATM session using the ATMSystem.
+--------------------------------------------------------------------------------
+# Features:
+🌟 Initial balance is set to ₹0
+
+💰 User can deposit any positive amount
+
+💸 User can withdraw, only if they have sufficient funds
+
+🛡️ Input is validated to prevent invalid or negative transactions
+
+🧾 Clear messages guide the user for every step
+
+🔄 Menu loop continues until the user selects "Exit"
+
+------------------------------------------------------------------------------------
+# Example :
+====== Welcome to ATM Menu ======
+
+1. Check Balance
+
+2. Deposit Funds
+
+3. Withdraw Funds
+
+4. Exit
+
+Choose an option: 1
+
+Your current balance is: ₹0.00
+
+====== Welcome to ATM Menu ======
+Choose an option: 3
+
+You have no funds in your account. Please deposit money first.
+
+====== Welcome to ATM Menu ======
+
+Choose an option: 2
+
+Enter amount to deposit: ₹1000
+
+₹1000.00 deposited successfully.
+
+====== Welcome to ATM Menu ======
+
+Choose an option: 3
+
+Enter amount to withdraw: ₹1500
+
+Insufficient balance. Transaction failed.
+
+====== Welcome to ATM Menu ======
+
+Choose an option: 3
+
+Enter amount to withdraw: ₹500
+
+₹500.00 withdrawn successfully.
+
+====== Welcome to ATM Menu ======
+
+Choose an option: 1
+
+Your current balance is: ₹500.00
+
+====== Welcome to ATM Menu ======
+
+Choose an option: 4
+
+Exiting... Thank you for using our ATM!
+
+----------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
 
 
 
